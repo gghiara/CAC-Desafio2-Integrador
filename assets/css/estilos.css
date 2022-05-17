@@ -44,7 +44,7 @@ a {
   width: 150px;
   display: block;
   position: absolute;
-  border-bottom: 5px solid #6266ea;
+  border-bottom: 5px solid #198754;
   padding-top: 0.5em;
 }
 .typo-space-line-center::after {
@@ -57,7 +57,7 @@ a {
 }
 /* Home */
 #index_banner {
-  background-image: url("./../img/banner-bg-01.jpg");
+  background-image: url("./../img/banner-bg-04.jpg");
   background-position: center center;
   background-size: cover;
   height: 100%;
@@ -69,7 +69,7 @@ a {
 }
 #index_banner .carousel-control-prev i,
 #index_banner .carousel-control-next i {
-  color: #6266ea !important;
+  color: #198754 !important;
   text-decoration: none;
   font-size: 4em;
 }
@@ -78,7 +78,7 @@ a {
 }
 #index_banner .carousel-indicators li,
 #index_banner .carousel-indicators.active {
-  background-color: #6266ea !important;
+  background-color: #198754 !important;
   /* // las rayas de abajo del carrousel van de color azul */
 }
 .service-wrapper .service-footer {
@@ -119,13 +119,13 @@ a {
     0deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 0) 33.333%,
-    rgba(97, 84, 199, 1) 66.666%,
-    rgba(255, 255, 255, 0) 99.999%
+    rgb(85, 175, 100) 65%,
+    rgba(56, 206, 81, 0) 99.999%
   );
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: 0.5s;
-  cursor: pointer;
+  cursor: pointer;  
 }
 .recent-work .recent-work-vertical:hover {
   background-position: 0% 0%;
@@ -156,12 +156,12 @@ a {
   width: 8rem;
 }
 .partner-wap {
-  background-color: #7276ec;
+  background-color: #198754;
   transition: 1s;
   cursor: pointer;
 }
 .partner-wap:hover {
-  background-color: #b1b3f5;
+  background-color: #198754;
 }
 .why-us {
   background: rgb(239, 239, 253);
@@ -180,7 +180,7 @@ a {
     rgba(239, 239, 253, 1) 50%,
     rgba(255, 255, 255, 1) 50%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#198754",endColorstr="#ffffff",GradientType=1);
 }
 .team-member-img {
   transition-duration: 0.15s;
